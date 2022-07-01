@@ -1,3 +1,9 @@
+/**
+ * this is my third coding chapter for core java
+ * @version 1.0.0
+ * @author Aman
+ */
+
 import java.util.Scanner;
 public class inputClass {
     public static void main(String[] args) {
@@ -7,10 +13,12 @@ public class inputClass {
 //        int num1 = newInput.nextInt();
         System.out.println("Enter a decimal number");
         float num1 = newInput.nextFloat();
+//        System.out.println(newInput.hasNextFloat());
 //        System.out.println("Enter a another number");
         System.out.println("Enter a another decimal number");
 //        int num2 = newInput.nextInt();
         float num2 = newInput.nextFloat();
+//        System.out.println(newInput.hasNextFloat());
 //        int sum = num1 + num2 ;
         float sum = num1 + num2;
 //        System.out.println("Sum of given number is "+ sum);
