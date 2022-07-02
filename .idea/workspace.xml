@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3efe1a1d-3493-4aaa-a7c6-7ad1784e4dbf" name="Changes" comment="first Java code run">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workWithString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.inputClass">
+  <component name="RunManager" selected="Application.workWithString">
     <configuration name="DSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA" />
       <module name="hello-world" />
@@ -72,8 +71,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="workWithString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workWithString" />
+      <module name="hello-world" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.workWithString" />
         <item itemvalue="Application.inputClass" />
         <item itemvalue="Application.DSA" />
         <item itemvalue="Application.literals" />
