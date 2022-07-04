@@ -11,6 +11,16 @@ public class ifElse {
         int b = numberForCompare.nextInt();
         if(a > b){
             System.out.println(a+" is greater then "+b);
+        } else {
+            System.out.println(b+" is greater then "+a);
+        }
+
+        System.out.println("Enter current time");
+        float time = numberForCompare.nextFloat();
+        if(12>time){
+            System.out.println("It's morning");
+        }else{
+            System.out.println("It's is more than 12");
         }
     }
 }
