@@ -19,8 +19,10 @@ public class ifElse {
         float time = numberForCompare.nextFloat();
         if(12>time){
             System.out.println("It's morning");
-        }else{
-            System.out.println("It's is more than 12");
+        }else if(20>time){
+            System.out.println("It's is evening");
+        }else {
+            System.out.println("Gud nyt friends");
         }
     }
 }
