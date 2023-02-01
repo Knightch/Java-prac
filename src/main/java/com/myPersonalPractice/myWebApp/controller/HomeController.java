@@ -1,5 +1,6 @@
 package com.myPersonalPractice.myWebApp.controller;
 
+import com.myPersonalPractice.myWebApp.model.Alien;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;
@@ -12,12 +13,14 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 
     @RequestMapping("home")
-    public ModelAndView home(@RequestParam("name") String myName){
+    public ModelAndView home(Alien alien){
 
         ModelAndView mv = new ModelAndView();
-        mv.addObject("name",myName);
+        mv.addObject("obj",alien);
         mv.setViewName("home");
-        System.out.println("welcome to home! " + myName);
+        System.out.println("your id is " + alien.getAid());
+        System.out.println("welcome to home! " + alien.getAname());
+        System.out.println("your language is " + alien.getLang());
 
         return mv;
     }
